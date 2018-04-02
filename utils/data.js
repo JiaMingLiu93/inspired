@@ -13,28 +13,23 @@ function getIndexNavData() {
   var arr = [
     {
       id: 1,
-      icon: "../../images/nav_icon_01.png",
-      title: "推荐"
+      icon: "../../images/relax.png",
+      title: "休闲放松"
     },
     {
       id: 2,
-      icon: "../../images/nav_icon_02.png",
-      title: "美甲"
+      icon: "../../images/internalnurse.png",
+      title: "内科调理"
     },
     {
       id: 3,
-      icon: "../../images/nav_icon_03.png",
-      title: "美容"
+      icon: "../../images/women.png",
+      title: "女性专区"
     },
     {
       id: 4,
-      icon: "../../images/nav_icon_04.png",
-      title: "美发"
-    },
-    {
-      id: 5,
-      icon: "../../images/nav_icon_05.png",
-      title: "美睫"
+      icon: "../../images/pain.png",
+      title: "身体疼痛"
     }
   ]
   return arr
