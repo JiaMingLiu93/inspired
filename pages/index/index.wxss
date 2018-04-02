@@ -1,0 +1,36 @@
+/**index.wxss**/
+/* 轮播图 */
+.swiper{
+    width:100%;
+    margin:0rpx;
+}
+.swiper image{
+    display: inline;
+}
+.page-body{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.nav_top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  box-sizing: border-box;
+  padding:10rpx 10rpx; 
+   /* background:url(../../images/black_line.png) repeat; */
+   /* color:#fff;  */
+}
+.nav_top_items{
+  text-align: center;
+  font-size: 28rpx;
+  width:100rpx; 
+  border-radius:8rpx;
+  box-sizing:border-box;
+}
+.nav_top_items image{
+  height: 83rpx;
+  width:93rpx;
+  display: inline-block;
+}
